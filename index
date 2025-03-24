@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="produtos">
+        <div class="produto">
+            <img src="images/produto1.jpg" alt="Produto 1">
+            <h2>Produto 1</h2>
+            <p>R$ 99,90</p>
+            <button onclick="adicionarAoCarrinho('Produto 1', 99.90)">Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="images/produto2.jpg" alt="Produto 2">
+            <h2>Produto 2</h2>
+            <p>R$ 149,90</p>
+            <button onclick="adicionarAoCarrinho('Produto 2', 149.90)">Comprar</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Minha Loja - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
